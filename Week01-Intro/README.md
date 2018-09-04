@@ -1,5 +1,4 @@
-912A - Tricky Alchemy
----------------------
+# 912A - Tricky Alchemy
 We need to find out how many crystals we need to produce the required number of balls.
 So, we calculate the total of required crystals to the balls.
 
@@ -14,7 +13,6 @@ blueCrystal*=-1;
 crystal = yellowCrystal + blueCrystal;
 
 # 854A - Fraction
----------------------
 We need to determine maximum possible proper irreducible fraction,
 so we make a for loop which divide the sum by 2, decreases the numerator's value by 1 and increases the denominator value by 1
 until the irreducible fraction is found.
@@ -32,7 +30,6 @@ for(int i=number/2;i>0;i--)
     }
     
 # 988A - Diverse Team
----------------------
 We need to form a team consisting of students with different ratings for each of the members.
 So, we need to first store the rating of the students in an array 
 Then we need to loop the array until all of the students are checked and the team member is formed.
