@@ -2,15 +2,12 @@
 We need to find out how many crystals we need to produce the required number of balls.
 So, we calculate the total of required crystals to the balls.
 
-yellowCrystal = yellowCrystal-2*yellowBall-greenBall
-blueCrystal = blueCrystal-3*blueBall-greenBall
+if(yellowCrystal<2*yellowBall+greenBall) crystal+=2*yellowBall+greenBall-yellowCrystal;
+if(blueCrystal<3*blueBall+greenBall) crystal+=3*blueBall+greenBall-blueCrystal;
 
-From that, we get the negative value of the number needed.
-So, all we need to do is to multiply those required Crystals with -1 and then sum up the amount of those Crystals.
+From that, we get the sum of the amount of those Crystals needed.
 
-yellowCrystal*=-1;
-blueCrystal*=-1;
-crystal = yellowCrystal + blueCrystal;
+[912A Submission](http://codeforces.com/contest/912/submission/42447010)
 
 # 854A - Fraction
 We need to determine maximum possible proper irreducible fraction,
@@ -28,6 +25,10 @@ for(int i=number/2;i>0;i--)
             break;
         }
     }
+    
+From that, we get the maximum possible proper irreducible fraction.
+
+[854A Submission](http://codeforces.com/contest/854/submission/42447023)
     
 # 988A - Diverse Team
 We need to form a team consisting of students with different ratings for each of the members.
@@ -79,3 +80,8 @@ if(count>=teamStudent)
     {
         cout<<"NO"<<endl;
     }
+    
+From that we can now know if it is possible to form a team consisting of students 
+with different ratings for each of the members.
+
+[988A Submission](http://codeforces.com/contest/988/submission/42447030)
