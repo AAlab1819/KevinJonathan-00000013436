@@ -46,7 +46,6 @@ It's because of the fact that any number can be divided by 1 with no remainder.
 Besides that, we'll do a for loop to check if the number is divisible by one of the four number given.
 If the condition meets, then we add the damaged dragon. 
 
-	//
 	if(panned==1||oofed==1||trampled==1||threatened==1) damaged=dragon;
 	else
 	{
